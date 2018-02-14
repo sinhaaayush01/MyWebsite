@@ -1,9 +1,11 @@
-.navbar-inverse{
+.navbar-inverse {
     width: 100%;
 }
-nav{
+
+nav {
     padding: 0 0;
 }
+
 #features img {
     margin: 0px 0px 20px;
 }
