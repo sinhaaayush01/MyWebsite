@@ -1,3 +1,9 @@
+.navbar-inverse{
+    width: 100%;
+}
+nav{
+    padding: 0 0;
+}
 #features img {
     margin: 0px 0px 20px;
 }
@@ -70,6 +76,7 @@ body {
 #searchInput {
     width: 200px;
 }
+
 .navbar-brand {
     padding-top: 5px;
     padding-right: 7px;
@@ -184,7 +191,7 @@ body {
     margin-right: 5px;
 }
 
-#mapbutton {
+.mapbutton {
     width: 150px;
     margin-left: 220px;
 }
@@ -203,7 +210,7 @@ body {
 
     #slide2 {
         background: url('../../images/rajasthan_small.jpg') top center no-repeat;
-        width: 100%;  
+        width: 100%;
     }
 
     #slide3 {
@@ -228,11 +235,10 @@ body {
     #tab5 img {
         width: 100%;
         height: 200px;
-    
     }
-    #well4 img{
+    #well4 img {
         width: 100%;
-        height: 70px;
+        height: 40px;
     }
 }
 
@@ -240,6 +246,7 @@ body {
 @media (max-width: 768px) {
 
     #myCarousel .item {
+        width: 100%;
         height: 310px;
     }
     .carousel-caption {
@@ -274,10 +281,10 @@ body {
     #tab5 img {
         width: 100%;
     }
-    .panel img{
+    .panel img {
         width: 150px;
-    } 
-    #well4 img{
+    }
+    #well4 img {
         width: 100%;
         height: 200px;
     }
