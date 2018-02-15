@@ -164,6 +164,9 @@ body {
 .thumbnail {
     position: relative;
 }
+.thumbnail:hover{
+    transform: scale(1.1);
+}
 
 .thumbnail h3 {
     font-size: 16px;
